@@ -6,8 +6,8 @@
 // пользователя его имя и вызвать функцию, про которую ранее шла речь, 
 // передав ей полученное от пользователя имя.
 
-const name = prompt ("Введите Ваше имя: ");
-userName(name)
+const firstName = prompt ("Введите Ваше имя: ");
+userName(firstName);
 function userName(firstName) {
     alert (`Здравствуйте, ${firstName}!`);
 }
